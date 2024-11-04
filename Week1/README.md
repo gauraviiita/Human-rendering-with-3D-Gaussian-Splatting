@@ -1,1 +1,2 @@
-Expored different approaches of creating human animatable avatar using gaussian splatting.
+# Week 1
+Explore different approaches to creating human animate avatars using Gaussian splatting.
