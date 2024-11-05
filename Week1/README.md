@@ -6,11 +6,11 @@ List of the papers: https://docs.google.com/spreadsheets/d/1HZXw-ABPMRWfHruoicAG
 
 **Steps to implement**
 
-Step 1: Convert images into point cloud from video to images.
+Step 1: Create images from the video using ffmpeg.
 
-    $ ffmpeg -i kitchen_girl.mp4 -qscale:v 1 -qmin 1 -vf fps=4 %04d.jpg
+    $ ffmpeg -i kitchen_girl_interaction.mp4 -qscale:v 1 -qmin 1 -vf fps=4 %04d.jpg
 
-Step 2: Make data compatible with your model training
+Step 2: Convert images into point cloud.
 
     $ python convert.py -s data/kitchen_env
 
