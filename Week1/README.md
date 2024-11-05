@@ -15,8 +15,10 @@ Step 2: Make data compatible with your model training
     $ python convert.py -s data/kitchen_env
 
 Step 3: Train the model for your dataset
+
     $ python train.py -s data/kitchen_env
     
 Step 4: Visualize the trained model
+
     $ ./SIBR_viewers/install/bin/SIBR_gaussianViewer_app -m /home/dr/Desktop/Gaurav/Research/BU/gaussian-splatting/output/kitchen_env
 
